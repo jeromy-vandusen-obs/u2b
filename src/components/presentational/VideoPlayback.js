@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
+
 import { pauseVideo } from '../../actions/pauseVideo';
 import { playVideo } from '../../actions/playVideo';
 
@@ -10,8 +11,8 @@ const mapStateToProps = state => ({
 });
 
 const mapDispatchToProps = dispatch => ({
-    playButtonClicked: () => dispatch(playVideo),
-    pauseButtonClicked: () => dispatch(pauseVideo)
+    playButtonClicked: () => dispatch(playVideo()),
+    pauseButtonClicked: () => dispatch(pauseVideo())
 });
 
 const VideoPlayback = ({title, url, isVideoPlaying, playButtonClicked, pauseButtonClicked}) => (

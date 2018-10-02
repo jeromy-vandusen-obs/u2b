@@ -1,3 +1,3 @@
-export const pauseVideo = {
+export const pauseVideo = () => ({
     type: 'PAUSE_VIDEO'
-};
+});

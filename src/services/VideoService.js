@@ -66,5 +66,5 @@ export const getRecommendedVideos = () => {
 };
 
 export const getVideo = (id) => {
-    return videos.filter(video => video.id === id);
+    return videos.filter(video => video.id === id)[0];
 };
