@@ -1,3 +1,8 @@
+# U2b
+
+A sample application built for experimenting with React. This is an implementation of basic YouTube functionality, minus
+the actual video streaming.
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
